@@ -3,10 +3,15 @@ import Hero from "./components/Hero";
 import Demo from "./components/Demo";
 function App() {
   return (
-    <div>
-      <Hero/>
-      <Demo/> 
-    </div>
+    <main>
+      <div className="main">
+        <div className="gradient"/>
+      </div>
+      <div>
+        <Hero/>
+        <Demo/>
+      </div>
+    </main>
   )
 }
 
